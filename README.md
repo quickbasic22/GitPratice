@@ -1,0 +1,37 @@
+# GitPratice
+Basic Git pratice
+
+CommandLine
+-----------
+
+git config --list
+git remote add origin https://github.com/quickbasic22/GitPratice.git
+git remote add origin https://github.com/quickbasic22/GitPratice.git
+
+git remote get-url
+
+for ($i=0;$i -lt 20;$i++){New-Item -Name File$i.txt -ItemType File -Value "Hello World`n $(Get-Date)"}
+
+git add *.txt
+git commit -m "Added 20 Text files with DateTime"
+
+git push --set-upstream origin master
+git status
+git log
+New-Item -Path GitHub.html -ItemType File -Value "<html><head></head><body></body></html>"
+git commit -m "added Github.html"
+
+git help git
+git cat-file -t 23f1dd7f08bf379c7c5866d079cd45f9871fc048
+git cat-file -p 23f1dd7f08bf379c7c5866d079cd45f9871fc048
+git cat-file -t 4c7e522cf86d6ead44860f8f86a59dac3b967b7c
+git cat-file -t 88131b0c993c7d6b32100753c901ac8919b2de2d
+git log --abbrev-commit
+
+git config --global user.name "Name"
+git config --global user.email "Email"
+
+git config --local user.name "name"
+git config --local user.email "Email"
+
+
